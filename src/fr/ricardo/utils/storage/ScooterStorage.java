@@ -20,7 +20,7 @@ public class ScooterStorage {
             .disableHtmlEscaping()
             .setPrettyPrinting()
             .serializeNulls().create();
-        storageFile = new File(System.getProperty("user.home") + "/Desktop/Scooter/");
+        storageFile = new File(System.getProperty("user.home") + "/Scooter/");
         if (!storageFile.exists()) storageFile.mkdir();
     }
 
